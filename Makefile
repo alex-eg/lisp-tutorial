@@ -1,6 +1,6 @@
 LATEX=pdflatex
-
 SRC=paper.tex
+OPTS=-shell-escape
 
 all: $(SRC)
-	$(LATEX) $(SRC)
+	$(LATEX) $(OPTS) $(SRC)
